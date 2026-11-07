@@ -1,0 +1,6 @@
+{
+  "name": "SafeRide | Smart Helmet Strap Check & Crash SOS Add-On",
+  "description": "SafeRide is a low-cost smart helmet add-on that checks helmet straps and sends SOS alerts after a detected crash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

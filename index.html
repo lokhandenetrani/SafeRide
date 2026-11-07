@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>SafeRide | Smart Helmet Strap Check & Crash SOS Add-On</title>
+  <meta name="title" content="SafeRide | Smart Helmet Strap Check & Crash SOS Add-On" />
+  <meta name="description" content="SafeRide is a low-cost smart helmet add-on that checks helmet straps and sends SOS alerts after a detected crash." />
+  <meta name="keywords" content="smart helmet, motorcycle safety, two wheeler crash detection, helmet strap sensor, India road safety, student innovation, emergency SOS GPS" />
+  <meta name="author" content="SafeRide Student Innovation Project" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SafeRide | Smart Helmet Strap Check & Crash SOS Add-On" />
+  <meta property="og:description" content="SafeRide is a low-cost smart helmet add-on that checks helmet straps and sends SOS alerts after a detected crash." />
+  <meta property="og:site_name" content="SafeRide" />
+  <meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuBfBU6Si73Q6isaOoAjUjqYs_1GYMrTYR-bkHBsmChiJLQB_lf_ayhR9wWIj0SKJo1JgxF4Zrgn_nNgAk9A1QXdnMXDhEs4ymI9IzkT-_DLN6xp_JQipff5zlwBo_0Z70MHessOFe4DGsse3DkwHNDofwZjWEbgBWq7rlJwHKZfyVvzXRH96eYqWFJe6keX8Xxt-pfbvN-L-HtFZkM7q5uzNJBW6S5BWQ8anZKaNLM" />
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SafeRide | Smart Helmet Strap Check & Crash SOS Add-On" />
+  <meta name="twitter:description" content="SafeRide is a low-cost smart helmet add-on that checks helmet straps and sends SOS alerts after a detected crash." />
+  <meta name="twitter:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuBfBU6Si73Q6isaOoAjUjqYs_1GYMrTYR-bkHBsmChiJLQB_lf_ayhR9wWIj0SKJo1JgxF4Zrgn_nNgAk9A1QXdnMXDhEs4ymI9IzkT-_DLN6xp_JQipff5zlwBo_0Z70MHessOFe4DGsse3DkwHNDofwZjWEbgBWq7rlJwHKZfyVvzXRH96eYqWFJe6keX8Xxt-pfbvN-L-HtFZkM7q5uzNJBW6S5BWQ8anZKaNLM" />
+
+  <!-- Favicon: Inline SVG of Safety Shield + Helmet -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B1F33'/%3E%3Cpath d='M16 5l9 4v7c0 5.5-3.8 10.7-9 12-5.2-1.3-9-6.5-9-12V9l9-4z' fill='%23FF6B1A' opacity='0.25'/%3E%3Cpath d='M16 6a8 8 0 00-8 8v3a2.5 2.5 0 002.5 2.5h2v-3.5a1 1 0 011-1h5a1 1 0 011 1V19.5h2a2.5 2.5 0 002.5-2.5v-3a8 8 0 00-8-8z' stroke='%23FF6B1A' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='14' r='2' fill='%23FF6B1A'/%3E%3C/svg%3E" />
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "SafeRide Smart Helmet Safety Add-On",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBfBU6Si73Q6isaOoAjUjqYs_1GYMrTYR-bkHBsmChiJLQB_lf_ayhR9wWIj0SKJo1JgxF4Zrgn_nNgAk9A1QXdnMXDhEs4ymI9IzkT-_DLN6xp_JQipff5zlwBo_0Z70MHessOFe4DGsse3DkwHNDofwZjWEbgBWq7rlJwHKZfyVvzXRH96eYqWFJe6keX8Xxt-pfbvN-L-HtFZkM7q5uzNJBW6S5BWQ8anZKaNLM",
+    "description": "SafeRide is a low-cost smart helmet add-on that checks helmet straps and sends SOS alerts after a detected crash.",
+    "brand": {
+      "@type": "Brand",
+      "name": "SafeRide"
+    },
+    "category": "Motorcycle Safety Accessories",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "INR",
+      "price": "1200",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/PreOrder"
+    }
+  }
+  </script>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- SCROLL PROGRESS BAR -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <span class="announcement-badge">COLLEGE INNOVATION PROJECT</span>
+    <span class="announcement-sep">·</span>
+    <span>LOW-COST RETROFIT ADD-ON FOR TWO-WHEELERS IN INDIA</span>
+    <span class="announcement-sep">·</span>
+    <span>TARGET HARDWARE BUDGET: ₹1,000–₹1,500</span>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="site-header" id="site-header">
+    <div class="container navbar">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="logo" aria-label="SafeRide Home">
+        <div class="logo-icon">
+          <!-- Helmet & Shield Minimal SVG -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a9 9 0 0 0-9 9v3a3 3 0 0 0 3 3h2v-4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v4h2a3 3 0 0 0 3-3v-3a9 9 0 0 0-9-9z"/>
+            <path d="M6 14h12"/>
+            <circle cx="8" cy="18" r="1.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span>SafeRide</span>
+          <span class="logo-sub">Smart Helmet Module</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <li><a href="#problem" class="nav-link">Problem</a></li>
+        <li><a href="#solution" class="nav-link">Solution</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#prototype" class="nav-link">Prototype</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </nav>
+
+      <!-- Nav Actions: Theme Toggle & Join Pilot Button -->
+      <div class="nav-actions">
+        <!-- Dark / Light Mode Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Switch to dark mode" title="Switch Theme">
+          <!-- Moon Icon (Light Mode Active) -->
+          <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Dark Mode Active) -->
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- CTA Button -->
+        <a href="#contact" class="btn btn-primary btn-sm">Join Pilot</a>
+
+        <!-- Mobile Hamburger Button -->
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg id="hamburger-icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg id="hamburger-icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#problem" class="mobile-nav-link">Problem Statement</a></li>
+        <li><a href="#solution" class="mobile-nav-link">SafeRide Solution</a></li>
+        <li><a href="#how-it-works" class="mobile-nav-link">How It Works</a></li>
+        <li><a href="#features" class="mobile-nav-link">Key Features</a></li>
+        <li><a href="#prototype" class="mobile-nav-link">Prototype & BOM</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Join Pilot Program</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;">Join The Pilot</a>
+    </div>
+  </header>
+
+  <main>
+    
+    <!-- ======================================================================
+         SECTION 1: HERO SECTION
+         ====================================================================== -->
+    <section class="section hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content reveal">
+            
+            <div class="hero-badge">
+              <span class="eyebrow-dot"></span>
+              <span>Smart Helmet Safety Add-On</span>
+            </div>
+
+            <h1 class="hero-title">
+              Ride Protected. <br>
+              <span class="text-highlight">Get Help Faster.</span>
+            </h1>
+
+            <p class="hero-subhead">
+              SafeRide is a low-cost smart helmet add-on that checks your strap and can send an SOS alert with your location after a serious crash.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#contact" class="btn btn-primary btn-lg">
+                <span>Join the Pilot</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#how-it-works" class="btn btn-outline btn-lg">
+                <span>See How It Works</span>
+              </a>
+            </div>
+
+            <!-- Trust Badges Bar -->
+            <div class="trust-badges-bar">
+              <div class="trust-badge-item">
+                <span class="trust-badge-title">Low-Cost Retrofit</span>
+                <span class="trust-badge-desc">Attaches to existing helmets</span>
+              </div>
+              <div class="trust-badge-item">
+                <span class="trust-badge-title">Crash SOS</span>
+                <span class="trust-badge-desc">10s cancel grace window</span>
+              </div>
+              <div class="trust-badge-item">
+                <span class="trust-badge-title">Strap Check</span>
+                <span class="trust-badge-desc">Continuous latch detection</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Helmet Visual Showcase -->
+          <div class="hero-visual reveal">
+            <div class="hero-visual-card">
+              <div class="hero-visual-glow"></div>
+              
+              <div class="helmet-image-wrap">
+                <img 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfBU6Si73Q6isaOoAjUjqYs_1GYMrTYR-bkHBsmChiJLQB_lf_ayhR9wWIj0SKJo1JgxF4Zrgn_nNgAk9A1QXdnMXDhEs4ymI9IzkT-_DLN6xp_JQipff5zlwBo_0Z70MHessOFe4DGsse3DkwHNDofwZjWEbgBWq7rlJwHKZfyVvzXRH96eYqWFJe6keX8Xxt-pfbvN-L-HtFZkM7q5uzNJBW6S5BWQ8anZKaNLM" 
+                  alt="SafeRide 3D Helmet Prototype - Aerodynamic matte helmet with safety orange electronics module mounted non-destructively to the chin strap harness"
+                  loading="eager"
+                  width="540"
+                  height="420"
+                />
+
+                <!-- Callout Overlay on Product Image -->
+                <div class="module-overlay-callout">
+                  <div style="display: flex; align-items: center; gap: 0.65rem;">
+                    <span class="module-status-dot"></span>
+                    <div>
+                      <div style="font-weight: 700; color: #FFFFFF;">SafeRide Add-On Module</div>
+                      <div style="font-size: 0.65rem; color: #94A3B8; font-family: var(--font-mono);">Strap Sensor + Shock Deceleration IMU</div>
+                    </div>
+                  </div>
+                  <div style="font-family: var(--font-mono); font-size: 0.68rem; color: var(--color-accent); font-weight: 600; background: rgba(255, 107, 26, 0.12); padding: 0.25rem 0.5rem; border-radius: 4px; border: 1px solid rgba(255, 107, 26, 0.3);">
+                    PROTOTYPE v0.8
+                  </div>
+                </div>
+              </div>
+
+              <!-- Module Specs Row -->
+              <div class="module-specs-row">
+                <div class="module-spec-box">
+                  <div class="module-spec-label">UNIVERSAL FIT</div>
+                  <div class="module-spec-val">Clips to any strap</div>
+                </div>
+                <div class="module-spec-box">
+                  <div class="module-spec-label">EST. ₹1,000–1,500</div>
+                  <div class="module-spec-val">Target BOM budget</div>
+                </div>
+                <div class="module-spec-box">
+                  <div class="module-spec-label">10s CANCEL</div>
+                  <div class="module-spec-val">Zero false dispatch</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2: PROBLEM STATEMENT
+         ====================================================================== -->
+    <section class="section section-alt" id="problem">
+      <div class="container">
+        
+        <!-- Header -->
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>The Reality On Indian Roads</span>
+          </div>
+          <h2 class="section-title">The Safety Gap</h2>
+          <p class="section-subtitle">
+            A conventional helmet protects your head during an impact. However, it cannot verify whether you actually fastened the chin strap, nor can it call for medical help when you are incapacitated. SafeRide was designed to close both vital gaps.
+          </p>
+        </div>
+
+        <!-- 3 Sourced Statistical Cards -->
+        <div class="stats-grid">
+          
+          <!-- Stat 1 -->
+          <div class="stat-card reveal">
+            <div>
+              <div class="stat-card-badge">MoRTH & NCRB 2024 Road Data</div>
+              <div class="stat-number" id="stat-counter-1">46.2%</div>
+              <div class="stat-label">Two-Wheeler Share of Road Deaths</div>
+              <p class="stat-desc">
+                Motorcycle and scooter riders account for nearly half of all transport fatalities in India, representing the single most vulnerable commuter segment.
+              </p>
+            </div>
+            <div class="stat-source">
+              Source: Ministry of Road Transport & Highways (MoRTH) & NCRB 2024
+            </div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="stat-card reveal">
+            <div>
+              <div class="stat-card-badge">Preventable Fatalities</div>
+              <div class="stat-number" id="stat-counter-2">54,122</div>
+              <div class="stat-label">Helmet Non-Use Deaths in 2024</div>
+              <p class="stat-desc">
+                Unbuckled straps often cause helmets to eject on initial contact. Thousands of lives are lost simply because helmets were loosely placed rather than buckled tight.
+              </p>
+            </div>
+            <div class="stat-source">
+              Source: NCRB Road Transport Accidents Report (2024 Analysis)
+            </div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="stat-card reveal">
+            <div>
+              <div class="stat-card-badge">Emergency Response Window</div>
+              <div class="stat-number" id="stat-counter-3">10s</div>
+              <div class="stat-label">SOS Cancellation Grace Window</div>
+              <p class="stat-desc">
+                A sudden deceleration triggers an audible warning. Riders have a deliberate 10-second grace window to dismiss false alerts before emergency SMS dispatch.
+              </p>
+            </div>
+            <div class="stat-source">
+              Engineering Specification: SafeRide False-Alarm Filter
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 5 Core Field Observation Roadblocks -->
+        <div class="roadblocks-card reveal">
+          <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--color-text-heading);">
+            Primary Roadblocks Identified in Student Commuter Field Research
+          </h3>
+          <div class="roadblocks-grid">
+            
+            <div class="roadblock-item">
+              <span class="roadblock-idx">01 / HABIT</span>
+              <h4 class="roadblock-title">Improper Strap Use</h4>
+              <p class="roadblock-desc">
+                Riders often wear helmets loose without latching the strap, causing the helmet to fling off during collision.
+              </p>
+            </div>
+
+            <div class="roadblock-item">
+              <span class="roadblock-idx">02 / ISOLATION</span>
+              <h4 class="roadblock-title">Zero Crash Awareness</h4>
+              <p class="roadblock-desc">
+                Standard helmets are passive plastic shells unable to detect sudden high-G deceleration or rider rollover.
+              </p>
+            </div>
+
+            <div class="roadblock-item">
+              <span class="roadblock-idx">03 / DELAY</span>
+              <h4 class="roadblock-title">Emergency Response Lag</h4>
+              <p class="roadblock-desc">
+                The "Golden Hour" after a crash is lost if an injured rider cannot reach their phone or is alone on rural roads.
+              </p>
+            </div>
+
+            <div class="roadblock-item">
+              <span class="roadblock-idx">04 / BARRIER</span>
+              <h4 class="roadblock-title">Cost Prohibitive Smart Helmets</h4>
+              <p class="roadblock-desc">
+                Imported smart helmets cost ₹8,000–₹25,000, putting life-saving IoT out of reach for students and delivery riders.
+              </p>
+            </div>
+
+            <div class="roadblock-item">
+              <span class="roadblock-idx">05 / USABILITY</span>
+              <h4 class="roadblock-title">Weight & Rigid Foam</h4>
+              <p class="roadblock-desc">
+                Modifying helmet foam damages safety certification. A lightweight external add-on preserves certified structural EPS.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: SOLUTION
+         ====================================================================== -->
+    <section class="section" id="solution">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>The SafeRide Solution</span>
+          </div>
+          <h2 class="section-title">One Small Module. Two Critical Safety Checks.</h2>
+          <p class="section-subtitle">
+            SafeRide attaches non-invasively to your existing helmet's chin strap and shell, adding real-time buckle verification and crash-triggered emergency SOS alerts.
+          </p>
+        </div>
+
+        <div class="solution-grid">
+          
+          <!-- Card 1: Strap Check -->
+          <div class="solution-card reveal">
+            <div>
+              <div class="solution-card-header">
+                <div class="solution-icon-wrap">
+                  <!-- Buckle / Check Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14 15 10"></polyline>
+                  </svg>
+                </div>
+                <span class="solution-tag">SAFETY CHECK 1</span>
+              </div>
+
+              <h3 class="solution-card-title">Strap-Check Verification</h3>
+              <p class="solution-card-desc">
+                A tactile or conductive micro-limit interlock embedded in the chin strap harness continuously verifies whether the buckle is securely fastened before and throughout the ride.
+              </p>
+
+              <ul class="solution-feature-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Prevents dangerous unbuckled riding that causes helmet ejection during an accident.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Gentle audible reminder buzzer nudges the rider if moving with strap open.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Low-power pull-up sensor design consumes micro-amps of standby current.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="solution-footer-note">
+              Hardware: Tactile Interlock / Conductive Buckle Clasp · Debounced via ESP32 GPIO
+            </div>
+          </div>
+
+          <!-- Card 2: Crash SOS -->
+          <div class="solution-card reveal">
+            <div>
+              <div class="solution-card-header">
+                <div class="solution-icon-wrap">
+                  <!-- Impact / SOS Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+                <span class="solution-tag">SAFETY CHECK 2</span>
+              </div>
+
+              <h3 class="solution-card-title">Crash SOS & Location Alert</h3>
+              <p class="solution-card-desc">
+                When a high-G collision is detected, SafeRide initiates a 10-second cancel countdown. If uncancelled, an SOS SMS with live GPS Google Maps coordinates is dispatched to emergency contacts.
+              </p>
+
+              <ul class="solution-feature-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>MPU-6050 3-axis accelerometer & gyroscope tracks sudden deceleration shock & tilt.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>10-second loud piezo buzzer countdown allows unhurt riders to abort false alarms.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Automated SMS with Google Maps pin sent via GSM or paired smartphone bridge.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="solution-footer-note">
+              Hardware: MPU-6050 Accelerometer + GPS NEO-6M / GSM SIM800L or BLE Bridge
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Non-Replacement Callout Note -->
+        <div class="callout-box reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <div>
+            <strong style="color: var(--color-text-heading);">Important Safety Standard Note:</strong> 
+            SafeRide does not replace a certified helmet. It is an auxiliary smart safety module created to retrofit existing BIS/ISI, DOT, or ECE certified helmets without compromising energy-absorbing EPS foam linings.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: HOW IT WORKS & WORKFLOW SIMULATOR
+         ====================================================================== -->
+    <section class="section section-alt" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-header text-center reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>Intelligent Workflow</span>
+          </div>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">
+            From the moment you strap your helmet to emergency communication after a collision, the system operates with automated fail-safes designed around rider habits.
+          </p>
+        </div>
+
+        <!-- 4-Step Timeline -->
+        <div class="timeline-grid">
+          
+          <!-- Step 1 -->
+          <div class="timeline-card reveal">
+            <div>
+              <div class="timeline-step-badge">1</div>
+              <h3 class="timeline-title">Wear & Buckle</h3>
+              <p class="timeline-desc">
+                Put on your certified helmet and fasten the chin strap. The tactile switch senses strap closure and wakes the ESP32 microcontroller from sleep.
+              </p>
+            </div>
+            <div class="timeline-status">CIRCUIT CLOSED · ARMED</div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="timeline-card reveal">
+            <div>
+              <div class="timeline-step-badge">2</div>
+              <h3 class="timeline-title">Ride Safely</h3>
+              <p class="timeline-desc">
+                The module monitors riding telemetry in the background. Digital filtering algorithms prevent normal road vibrations or potholes from triggering false alarms.
+              </p>
+            </div>
+            <div class="timeline-status">SAMPLING AT 50Hz · STABLE</div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="timeline-card alert-step reveal">
+            <div>
+              <div class="timeline-step-badge">3</div>
+              <h3 class="timeline-title">Crash Detected</h3>
+              <p class="timeline-desc">
+                If severe deceleration (>4.5G) occurs, the 85dB piezo buzzer pulses and starts a 10-second cancel window so unhurt riders can dismiss false alarms.
+              </p>
+            </div>
+            <div class="timeline-status" style="color: var(--color-accent); font-weight: 700;">10s GRACE CANCEL WINDOW</div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="timeline-card reveal">
+            <div>
+              <div class="timeline-step-badge">4</div>
+              <h3 class="timeline-title">SOS Sent</h3>
+              <p class="timeline-desc">
+                If the 10 seconds elapse without cancellation, an automated SMS containing precise latitude, longitude, and a Google Maps link is broadcast to emergency contacts.
+              </p>
+            </div>
+            <div class="timeline-status">GPS COORDINATES BROADCAST</div>
+          </div>
+
+        </div>
+
+        <!-- Assistive Feature Disclaimer -->
+        <div style="text-align: center; margin-bottom: 3.5rem; font-size: 0.8rem; color: var(--color-text-muted);" class="reveal">
+          <em>* Disclaimer: Crash detection is an assistance feature and may not detect every crash. Mobile network coverage and battery status are required for SOS dispatch.</em>
+        </div>
+
+        <!-- Interactive Logic State Machine Simulator -->
+        <div class="simulator-box reveal" id="simulator">
+          <div class="simulator-header">
+            <div>
+              <span class="eyebrow" style="color: var(--color-accent);">
+                <span class="eyebrow-dot"></span>
+                INTERACTIVE LOGIC DEMONSTRATION
+              </span>
+              <h3 class="simulator-title">SafeRide System Telemetry & SOS State Simulator</h3>
+            </div>
+            <div>
+              <button type="button" class="sound-toggle-btn on" id="sim-sound-toggle" aria-pressed="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                </svg>
+                <span class="sound-label">Audio: ON</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="simulator-controls">
+            <!-- Left: Buttons -->
+            <div class="simulator-btn-col">
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: #94A3B8; text-transform: uppercase;">
+                Click to Simulate Triggers:
+              </span>
+
+              <button type="button" class="sim-btn active" id="sim-btn-normal">
+                <span>1. Normal Cruising (Strap Buckled)</span>
+                <span style="color: #34D399;">ARMED</span>
+              </button>
+
+              <button type="button" class="sim-btn sim-btn-danger" id="sim-btn-impact">
+                <span>2. Trigger Impact Shock (&gt; 4.5G)</span>
+                <span style="color: #EF4444; font-weight: 700;">TEST 10s SOS</span>
+              </button>
+
+              <button type="button" class="sim-btn" id="sim-btn-cancel">
+                <span>3. Rider Press Cancel Button</span>
+                <span style="color: #FBBF24;">DISMISS</span>
+              </button>
+            </div>
+
+            <!-- Right: Terminal Screen -->
+            <div class="simulator-terminal">
+              <div>
+                <div class="sim-terminal-top">
+                  <span>FIRMWARE CONSOLE: ESP32 UART</span>
+                  <span class="sim-status-pill armed" id="sim-status-pill">SYSTEM: ARMED & MONITORING</span>
+                </div>
+
+                <div class="sim-log-content" id="sim-log-content">
+                  <div style="color: #34D399;">[0.00s] Chin-Strap Interlock: CLOSED & LATCHED (Resistance: 0.2Ω)</div>
+                  <div>[0.02s] MPU-6050 Accelerometer: X=0.03g, Y=0.98g, Z=0.10g (Stable riding telemetry)</div>
+                  <div style="color: #94A3B8;">[0.05s] FreeRTOS Task: Sampling rate 50Hz. No abnormal deceleration spikes.</div>
+                </div>
+
+                <div class="sim-countdown-bar-wrap">
+                  <div class="sim-countdown-bar" id="sim-countdown-bar"></div>
+                </div>
+              </div>
+
+              <div class="sim-terminal-bottom" id="sim-action-banner">
+                <span>Status: Normal cruising mode. Strap verified.</span>
+                <span style="color: #34D399;">LED: Solid Orange</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: FEATURES
+         ====================================================================== -->
+    <section class="section" id="features">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>Comprehensive Protection</span>
+          </div>
+          <h2 class="section-title">Built-in Intelligence for Everyday Commutes</h2>
+          <p class="section-subtitle">
+            Six purpose-built safety features designed specifically for the chaotic traffic conditions, variable road surfaces, and high temperatures of Indian riding.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          
+          <!-- Feature 1 -->
+          <div class="feature-card reveal">
+            <div>
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 class="feature-title">Strap-Check Alert</h3>
+              <p class="feature-desc">
+                Continuous physical interlock sensing verifies that the chin strap buckle remains firmly fastened throughout the commute, providing audio-visual nudges if left unbuckled.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card reveal">
+            <div>
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <h3 class="feature-title">Crash Detection</h3>
+              <p class="feature-desc">
+                6-axis motion analysis (3-axis accelerometer + 3-axis gyro) identifies high-deceleration impact spikes and abnormal head rollover angles exceeding normal motorcycle maneuvers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card reveal">
+            <div>
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <h3 class="feature-title">10-Second Cancel Window</h3>
+              <p class="feature-desc">
+                A deliberate audible countdown sounds immediately upon impact. If you merely dropped your helmet while stationary or are unharmed, a quick push button aborts the SMS.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card reveal">
+            <div>
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="feature-title">Emergency-Contact SOS</h3>
+              <p class="feature-desc">
+                Direct SMS broadcast to pre-configured family contacts and local emergency services (112), bypassing the need to unlock or reach for your phone during an injury.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="feature-card reveal">
+            <div>
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <h3 class="feature-title">GPS Location Sharing</h3>
+              <p class="feature-desc">
+                Transmits exact latitude and longitude pin links directly to Google Maps, shaving critical minutes off ambulance response and search times on rural highways.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="feature-card reveal">
+            <div>
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect>
+                  <line x1="22" y1="11" x2="22" y2="13"></line>
+                </svg>
+              </div>
+              <h3 class="feature-title">Low-Power Sleep Mode</h3>
+              <p class="feature-desc">
+                When the helmet is taken off and unbuckled, the ESP32 automatically transitions into deep sleep mode, conserving battery power for up to 30+ hours of ride time.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Universal Compatibility Banner -->
+        <div class="compatibility-banner reveal">
+          <div class="compatibility-text">
+            <strong>Universal Retrofit Compatibility:</strong> SafeRide clips securely to standard micrometric quick-release straps as well as double-D ring harnesses. It does not require modifying, drilling, or replacing your certified helmet shell.
+          </div>
+          <a href="#prototype" class="btn btn-outline btn-sm">Inspect Prototype Hardware</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6: PROTOTYPE, BOM & ITERATIONS
+         ====================================================================== -->
+    <section class="section section-alt" id="prototype">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>Engineering Transparency</span>
+          </div>
+          <h2 class="section-title">Prototype Hardware & Development</h2>
+          <p class="section-subtitle">
+            An open engineering approach: testing real hardware, measuring limitations, and optimizing the Bill of Materials to keep the module affordable for every two-wheeler owner.
+          </p>
+        </div>
+
+        <!-- Two Column Layout: Description & BOM Breakdown -->
+        <div class="prototype-grid">
+          
+          <!-- Column 1: Prototype Description & Improvements -->
+          <div class="prototype-info-col reveal">
+            
+            <div class="improvements-card">
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--color-text-heading);">
+                Real-World Testing & Redesign Insights
+              </h3>
+              <p style="font-size: 0.88rem; color: var(--color-text-muted); margin-top: 0.5rem; line-height: 1.6;">
+                During road trials on campus test tracks and urban roads, we logged specific failure points that guided our firmware revisions:
+              </p>
+
+              <div class="improvements-list">
+                
+                <div class="improvement-item">
+                  <span class="improvement-badge">ISSUE 1</span>
+                  <div class="improvement-content">
+                    <h4>Speed Breaker False Alerts</h4>
+                    <p>
+                      Sharp rumble strips and abrupt speed bumps initially produced acceleration spikes that resembled low-speed falls.
+                    </p>
+                    <p style="color: var(--color-accent); font-weight: 600; font-size: 0.78rem; margin-top: 0.2rem;">
+                      → Solution: Raised detection threshold to >4.5G and added gyro rotational velocity cross-checking.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="improvement-item">
+                  <span class="improvement-badge">ISSUE 2</span>
+                  <div class="improvement-content">
+                    <h4>Accidental Drops During Parking</h4>
+                    <p>
+                      Dropping a helmet on the ground while taking it off registered high Gs without a rider inside.
+                    </p>
+                    <p style="color: var(--color-accent); font-weight: 600; font-size: 0.78rem; margin-top: 0.2rem;">
+                      → Solution: 10-second loud buzzer cancel window gives the rider immediate opportunity to dismiss.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="improvement-item">
+                  <span class="improvement-badge">ISSUE 3</span>
+                  <div class="improvement-content">
+                    <h4>Breadboard Bulk & Battery Drain</h4>
+                    <p>
+                      Initial Arduino UNO test rig was heavy (210g) and drained a 9V cell in less than 4 hours.
+                    </p>
+                    <p style="color: var(--color-accent); font-weight: 600; font-size: 0.78rem; margin-top: 0.2rem;">
+                      → Solution: Migrated to ESP32 with Li-Po pouch cell + deep-sleep states, cutting weight to under 80g.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Design Thinking 5-Stage Methodology -->
+            <div style="background-color: var(--color-card); border: 1px solid var(--color-card-border); border-radius: var(--radius-xl); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+              <span class="eyebrow" style="margin-bottom: 0.5rem;">DESIGN THINKING FRAMEWORK</span>
+              <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem;">5-Stage Human-Centered Engineering</h4>
+              <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.4rem; text-align: center; font-size: 0.7rem; font-family: var(--font-mono);">
+                <div style="background: var(--color-bg-alt); padding: 0.5rem 0.25rem; border-radius: 4px; border: 1px solid var(--color-card-border);">
+                  <strong style="color: var(--color-accent);">1. Empathize</strong><br><span style="color: var(--color-text-muted);">24 rider chats</span>
+                </div>
+                <div style="background: var(--color-bg-alt); padding: 0.5rem 0.25rem; border-radius: 4px; border: 1px solid var(--color-card-border);">
+                  <strong style="color: var(--color-accent);">2. Define</strong><br><span style="color: var(--color-text-muted);">False alarm ban</span>
+                </div>
+                <div style="background: var(--color-bg-alt); padding: 0.5rem 0.25rem; border-radius: 4px; border: 1px solid var(--color-card-border);">
+                  <strong style="color: var(--color-accent);">3. Ideate</strong><br><span style="color: var(--color-text-muted);">Retrofit clip</span>
+                </div>
+                <div style="background: var(--color-bg-alt); padding: 0.5rem 0.25rem; border-radius: 4px; border: 1px solid var(--color-card-border);">
+                  <strong style="color: var(--color-accent);">4. Prototype</strong><br><span style="color: var(--color-text-muted);">ESP32 v0.8</span>
+                </div>
+                <div style="background: var(--color-bg-alt); padding: 0.5rem 0.25rem; border-radius: 4px; border: 1px solid var(--color-card-border);">
+                  <strong style="color: var(--color-accent);">5. Test</strong><br><span style="color: var(--color-text-muted);">10s grace win</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Bill of Materials (BOM) Breakdown -->
+          <div class="prototype-bom-col reveal">
+            <div class="bom-card">
+              <div class="bom-header">
+                <div>
+                  <span class="eyebrow">BILL OF MATERIALS (BOM)</span>
+                  <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--color-text-heading); margin-top: 0.2rem;">
+                    Target Component Budget
+                  </h3>
+                </div>
+                <div style="text-align: right;">
+                  <div class="bom-total-val">~₹1,180</div>
+                  <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--color-success); font-weight: 600;">
+                    BUDGET: ₹1,000–₹1,500
+                  </div>
+                </div>
+              </div>
+
+              <div class="bom-list">
+                
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">ESP32 Dual-Core Microcontroller</div>
+                    <div class="bom-item-sub">240MHz SoC with Bluetooth LE & Deep Sleep</div>
+                  </div>
+                  <div class="bom-item-cost">₹320</div>
+                </div>
+
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">MPU-6050 Motion Sensor (IMU)</div>
+                    <div class="bom-item-sub">3-Axis Accelerometer + 3-Axis Gyroscope</div>
+                  </div>
+                  <div class="bom-item-cost">₹140</div>
+                </div>
+
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">Chin-Strap Sensor & Interlock</div>
+                    <div class="bom-item-sub">Tactile micro-limit switch / conductive buckle</div>
+                  </div>
+                  <div class="bom-item-cost">₹60</div>
+                </div>
+
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">GPS NEO-6M / Mobile BLE Bridge</div>
+                    <div class="bom-item-sub">NMEA coordinate fix / smartphone tether</div>
+                  </div>
+                  <div class="bom-item-cost">₹310</div>
+                </div>
+
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">3.7V 650mAh Li-Po + TP4056 USB-C</div>
+                    <div class="bom-item-sub">Protected lithium cell with charging IC</div>
+                  </div>
+                  <div class="bom-item-cost">₹190</div>
+                </div>
+
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">3D-Printed Weatherproof Casing</div>
+                    <div class="bom-item-sub">Compact PLA/ABS strap harness clip</div>
+                  </div>
+                  <div class="bom-item-cost">₹90</div>
+                </div>
+
+                <div class="bom-item">
+                  <div>
+                    <div class="bom-item-name">Piezo Buzzer, LED & Dismiss Button</div>
+                    <div class="bom-item-sub">85dB sounder, status diode, wiring</div>
+                  </div>
+                  <div class="bom-item-cost">₹70</div>
+                </div>
+
+              </div>
+
+              <div style="margin-top: 1.5rem; padding: 1rem; background-color: var(--color-bg-alt); border-radius: var(--radius-md); font-size: 0.8rem; color: var(--color-text-muted); border: 1px solid var(--color-card-border);">
+                <strong>Commercial Comparison:</strong> Smart helmets from international brands retail for upwards of ₹12,000–₹25,000. SafeRide delivers the core lifesaving functions (strap check + crash SOS) at ~10% of that cost.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Testing Benchmarks Observation Table -->
+        <div class="test-table-wrap reveal" style="margin-top: 2rem;">
+          <table class="test-table">
+            <thead>
+              <tr>
+                <th>Evaluation Parameter</th>
+                <th>Observed in Prototype v0.8</th>
+                <th>Target for Production PCB</th>
+                <th>Engineering Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Strap Detection Accuracy</strong></td>
+                <td>92% across 50 simulated fastenings</td>
+                <td>&gt; 99.5% with magnetic reed contact</td>
+                <td><span class="status-tag validated">Validated</span></td>
+              </tr>
+              <tr>
+                <td><strong>False Alarm Mitigation</strong></td>
+                <td>10-second cancel button reliably pauses</td>
+                <td>Gyro inactivity auto-confirm added</td>
+                <td><span class="status-tag validated">Implemented</span></td>
+              </tr>
+              <tr>
+                <td><strong>Module Weight</strong></td>
+                <td>118g (3D printed PLA prototype)</td>
+                <td>&lt; 75g (Molded polycarbonate)</td>
+                <td><span class="status-tag active">Optimizing</span></td>
+              </tr>
+              <tr>
+                <td><strong>Active Ride Battery Life</strong></td>
+                <td>~12 hours continuous sampling</td>
+                <td>35+ hours with firmware sleep tuning</td>
+                <td><span class="status-tag active">Firmware Tuned</span></td>
+              </tr>
+              <tr>
+                <td><strong>Emergency SMS Transmission</strong></td>
+                <td>~35s via 2G GSM cellular module</td>
+                <td>&lt; 12s via paired Smartphone BLE</td>
+                <td><span class="status-tag future">Dual-Path</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 7: FREQUENTLY ASKED QUESTIONS
+         ====================================================================== -->
+    <section class="section" id="faq">
+      <div class="container">
+        
+        <div class="section-header text-center reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>Common Questions</span>
+          </div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Clear, transparent technical answers regarding compatibility, reliability, privacy, and pilot testing.
+          </p>
+        </div>
+
+        <div class="faq-container">
+          
+          <!-- FAQ 1 -->
+          <div class="faq-item reveal">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Does SafeRide replace my helmet?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                No. SafeRide is an auxiliary smart add-on designed to clip onto your existing helmet. You must always use a certified helmet meeting Indian BIS/ISI (IS 4151:2015), DOT, or ECE standards. SafeRide does not replace helmet impact-absorbing foam; it adds strap-fastening alerts and crash-triggered emergency SOS communications.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item reveal">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>What happens after a crash is detected?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                When a high-G collision is detected, SafeRide sounds an 85dB piezo buzzer and starts a 10-second cancel window. If you are unhurt or dropped your helmet accidentally, you can push the physical cancel button to abort the alert. If the countdown elapses with no cancellation, an emergency SMS with your live GPS location link is dispatched to your emergency contacts.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item reveal">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Will it send false alerts?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Our engineering team has tuned the firmware to ignore potholes, speed bumps, and normal road vibration by combining linear acceleration thresholds (&gt;4.5G) with gyroscope rotational rate checks. Furthermore, the 10-second loud audible grace period allows unhurt riders to dismiss any accidental triggers before any SMS is sent.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item reveal">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Does it work without mobile network?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Strap-check alerts and local crash buzzer alarms function completely offline at all times. However, transmitting the SOS SMS with your GPS coordinates requires either an active cellular signal (via the onboard GSM SIM module) or Bluetooth connection to a paired smartphone with cellular service.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item reveal">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Is my location private?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. SafeRide does not continuously stream or track your location to cloud servers. The GPS receiver only wakes and logs coordinates when a severe crash event has been confirmed and the 10-second cancel window has expired without intervention. Your location is sent only to the emergency numbers you select.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item reveal">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>How much does it cost?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Our engineering target for the add-on module bill of materials is between ₹1,000 and ₹1,500. As a student innovation project, pilot testing units are being manufactured for campus trials and evaluation. Commercial production pricing will depend on injection molding tooling and certifications.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 8: CONTACT / JOIN PILOT
+         ====================================================================== -->
+    <section class="section section-alt pilot-section" id="contact">
+      <div class="container">
+        
+        <div class="pilot-grid">
+          
+          <!-- Left: Pilot Program Context & Perks -->
+          <div class="reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              <span>Become An Early Tester</span>
+            </div>
+            <h2 class="section-title">Join the SafeRide Pilot</h2>
+            <p class="section-subtitle">
+              We are inviting daily commuters, students, delivery executives, and college evaluators to test our prototype v0.8 in real-world commuting scenarios.
+            </p>
+
+            <div class="pilot-perks" style="margin-top: 2rem;">
+              
+              <div class="pilot-perk-item">
+                <div class="pilot-perk-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--color-text-heading);">Early Hardware Access</h4>
+                  <p style="font-size: 0.82rem; color: var(--color-text-muted);">
+                    Get priority access to pilot test units for your personal commute or campus fleet.
+                  </p>
+                </div>
+              </div>
+
+              <div class="pilot-perk-item">
+                <div class="pilot-perk-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--color-text-heading);">Direct Engineering Feedback</h4>
+                  <p style="font-size: 0.82rem; color: var(--color-text-muted);">
+                    Share daily ride observations directly with student hardware engineers to shape v1.0.
+                  </p>
+                </div>
+              </div>
+
+              <div class="pilot-perk-item">
+                <div class="pilot-perk-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--color-text-heading);">Project Mentorship & Pitch Inquiries</h4>
+                  <p style="font-size: 0.82rem; color: var(--color-text-muted);">
+                    Contact the team for project documentation, pitch decks, or collaboration: 
+                    <a href="mailto:hello@saferide.example" style="color: var(--color-accent); font-weight: 600;">hello@saferide.example</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Validation Form Card -->
+          <div class="reveal">
+            <div class="pilot-form-card">
+              
+              <!-- Form Success Feedback -->
+              <div class="form-success-banner" id="pilot-form-success">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" style="margin: 0 auto 0.5rem;">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem;">
+                  Pilot Application Registered!
+                </h3>
+                <p style="font-size: 0.85rem; margin-bottom: 1rem;">
+                  Thank you, <span id="success-user-name">Rider</span>. Your submission has been saved to local prototype storage. Our college innovation team will reach out with pilot test updates.
+                </p>
+                <button type="button" class="btn btn-outline btn-sm" id="pilot-form-reset-btn">
+                  Submit Another Application
+                </button>
+              </div>
+
+              <!-- Interactive Form -->
+              <form id="pilot-form" novalidate>
+                <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--color-text-heading); margin-bottom: 1.25rem;">
+                  Sign Up for SafeRide Pilot Testing
+                </h3>
+
+                <!-- Name & Email -->
+                <div class="form-row form-row-2">
+                  <div class="form-group">
+                    <label class="form-label" for="fullname">Full Name <span class="req">*</span></label>
+                    <input type="text" id="fullname" name="fullname" class="form-control" placeholder="e.g. Rahul Sharma" required />
+                    <span class="error-msg">Please enter your full name (minimum 2 characters).</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="email">Email Address <span class="req">*</span></label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="rahul@example.com" required />
+                    <span class="error-msg">Please enter a valid email address.</span>
+                  </div>
+                </div>
+
+                <!-- Phone & Rider Type -->
+                <div class="form-row form-row-2">
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Phone Number <span class="req">*</span></label>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="e.g. 9876543210" required />
+                    <span class="error-msg">Please enter a valid 10-digit phone number.</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="ridertype">Rider Profile <span class="req">*</span></label>
+                    <select id="ridertype" name="ridertype" class="form-control" required>
+                      <option value="">Select your rider type</option>
+                      <option value="Daily Commuter">Daily Commuter (Office/Work)</option>
+                      <option value="College Student">Student / College Rider</option>
+                      <option value="Gig Delivery Executive">Gig Delivery Executive (Swiggy/Zomato/etc.)</option>
+                      <option value="Highway / Long Distance">Highway / Weekend Rider</option>
+                      <option value="Parent / Family">Parent / Concerned Family</option>
+                      <option value="Academic / Industry Partner">Academic / Project Evaluator</option>
+                    </select>
+                    <span class="error-msg">Please select your rider profile.</span>
+                  </div>
+                </div>
+
+                <!-- City -->
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="city">City / College Campus <span class="req">*</span></label>
+                    <input type="text" id="city" name="city" class="form-control" placeholder="e.g. Bengaluru, Karnataka" required />
+                    <span class="error-msg">Please enter your city or campus location.</span>
+                  </div>
+                </div>
+
+                <!-- Message -->
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="message">How would you test SafeRide? (Optional)</label>
+                    <textarea id="message" name="message" class="form-control" rows="3" placeholder="Tell us about your daily commute route, helmet brand, or specific test suggestions..."></textarea>
+                  </div>
+                </div>
+
+                <!-- Consent Checkbox -->
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="consent-label" for="pilot-consent">
+                      <input type="checkbox" id="pilot-consent" name="consent" class="consent-checkbox" required />
+                      <span>
+                        I agree to participate in the prototype pilot testing program, provide honest ride feedback, and be contacted regarding SafeRide project updates. <span class="req">*</span>
+                      </span>
+                    </label>
+                    <span class="error-msg" id="consent-error" style="display: none;">You must accept the pilot participation consent.</span>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+                  <span>Submit Pilot Application</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Admin View / LocalStorage Inspection Link -->
+              <div class="admin-submissions-bar">
+                <span id="admin-submissions-count">0 Pilot Sign-ups Logged</span>
+                <button type="button" id="open-admin-modal-btn" style="color: var(--color-accent); font-weight: 600; text-decoration: underline; background: none; border: none; cursor: pointer;">
+                  View Registered Pilots (Admin Demo)
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Col 1: Brand & Description -->
+        <div class="footer-col">
+          <div class="logo footer-logo">
+            <div class="logo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M12 3a9 9 0 0 0-9 9v3a3 3 0 0 0 3 3h2v-4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v4h2a3 3 0 0 0 3-3v-3a9 9 0 0 0-9-9z"/>
+                <path d="M6 14h12"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span style="color: #FFFFFF;">SafeRide</span>
+              <span class="logo-sub" style="color: #8A99A8;">Smart Helmet Module</span>
+            </div>
+          </div>
+
+          <p class="footer-desc">
+            SafeRide is a low-cost smart helmet add-on engineered to verify chin strap fastening and transmit emergency SOS coordinates after a detected severe crash.
+          </p>
+
+          <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-accent);">
+            Student Innovation Project · Design Thinking Lab 2025
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <div class="footer-heading">Navigation</div>
+          <ul class="footer-links">
+            <li><a href="#problem">The Safety Gap</a></li>
+            <li><a href="#solution">SafeRide Solution</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#features">Key Features</a></li>
+            <li><a href="#prototype">Prototype & BOM</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Resources & Technical -->
+        <div class="footer-col">
+          <div class="footer-heading">Project Specs</div>
+          <ul class="footer-links">
+            <li><a href="#simulator">Interactive State Machine</a></li>
+            <li><a href="#prototype">Bill of Materials (BOM)</a></li>
+            <li><a href="#prototype">Testing Observations</a></li>
+            <li><a href="#faq">FAQ Documentation</a></li>
+            <li><a href="#contact">Join Early Pilot</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Social -->
+        <div class="footer-col">
+          <div class="footer-heading">Get in Touch</div>
+          <p style="font-size: 0.82rem; color: #8A99A8;">
+            For evaluations, hackathon reviews, or campus partnerships:
+          </p>
+          <a href="mailto:hello@saferide.example" style="color: #FFFFFF; font-weight: 600; font-family: var(--font-mono); font-size: 0.85rem;">
+            hello@saferide.example
+          </a>
+
+          <div class="social-links-row">
+            <!-- GitHub -->
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="SafeRide GitHub Repository">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <!-- Twitter / X -->
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Disclaimer & Copyright -->
+      <div class="footer-bottom">
+        <div class="footer-disclaimer">
+          <strong>Academic Prototype Disclaimer:</strong> SafeRide is a college engineering and design thinking research prototype. It is NOT an approved medical device or certified replacement for an ISI/DOT/ECE certified motorcycle helmet, defensive driving practices, or national emergency responders (112). Crash detection accuracy and cellular SOS delivery depend on hardware battery charge and mobile network availability.
+        </div>
+        <div class="footer-copyright-row">
+          <div>© 2025 SafeRide Student Innovation Project. All rights reserved.</div>
+          <div style="font-family: var(--font-mono); font-size: 0.72rem;">Designed with Stanford d.school Framework & Open Hardware Principles.</div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP FLOATING BUTTON -->
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Scroll to top of page" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ADMIN SUBMISSIONS INSPECTION MODAL (FR-11) -->
+  <div class="modal-overlay" id="admin-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-title" style="font-size: 1.15rem; font-weight: 700; color: var(--color-text-heading);">
+          Registered Pilot Applications (LocalStorage)
+        </h3>
+        <button type="button" id="close-admin-modal-btn" aria-label="Close modal" style="font-size: 1.25rem; color: var(--color-text-muted); cursor: pointer;">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body" id="admin-submissions-list">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline btn-sm" id="clear-submissions-btn" style="color: var(--color-danger); border-color: rgba(239, 68, 68, 0.4);">
+          Clear Demo Data
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" id="export-submissions-btn">
+          Export as JSON
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript Logic -->
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
